@@ -35,4 +35,12 @@ class UserController extends BaseController
 
         $this->sendOutput(json_encode(['error' => $strErrorDesc]), self::HTTP_INTERNAL_SERVER_ERROR);
     }
+
+    /**
+     * Create user
+     */
+    public function createAction()
+    {
+        // TBD
+    }
 }
